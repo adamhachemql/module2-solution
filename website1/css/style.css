@@ -1,0 +1,216 @@
+@media (min-width: 992px ){
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+      }
+      div{
+        float: left;
+        margin-right: 10px;
+        margin-top: 75px;
+    }
+    p {
+        width: 100px;
+        height: 25px;
+        border: 1px black;
+        text-align: center;
+
+
+    }
+    #container1{
+        width: 31.5%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        margin-left: 20px;
+        
+    }
+    #p1{
+        background-color: pink;
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+
+    }
+    #container2{
+        width: 31.5%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        
+    }
+    #p2{
+        background-color: brown;
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+    
+    }
+    #container3{
+        width: 31.5%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+    }
+    #p3{
+        background-color: rgb(209, 209, 131);
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+    
+    }
+
+}
+@media (min-width: 768px ) and (max-width: 991px ) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+      }
+    
+    p {
+        width: 100px;
+        height: 25px;
+        border: 1px black;
+        text-align: center;
+
+
+    }
+    #container1{
+        width: 47%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        margin-left: 20px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 75px;
+    }
+    #p1{
+        background-color: pink;
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+
+    }
+    #container2{
+        width: 47%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        float: left;
+        margin-right: 10px;
+        margin-top: 75px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 75px;
+    }
+    #p2{
+        background-color: brown;
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+    
+    }
+    #container3{
+        width: 95%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        margin-top: 350px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #p3{
+        background-color: rgb(209, 209, 131);
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+    }
+
+}
+
+@media (max-width: 767px ) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+      }
+    
+    p {
+        width: 100px;
+        height: 25px;
+        border: 1px black;
+        text-align: center;
+    }
+    
+    div{
+        float: bottom ;
+        margin-top: 33px;
+    }
+
+    #container1{
+        width: 95%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        margin-left: 20px;
+    }
+    #p1{
+        background-color: pink;
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+
+    }
+    #container2{
+        width: 95%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #p2{
+        background-color: brown;
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+    }
+    #container3{
+        width: 95%;
+        height: 250px;
+        background-color: grey ;
+        border: 1px solid black ;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #p3{
+        background-color: rgb(209, 209, 131);
+        position: absolute;
+        border: 1px solid black ;
+        right: 0;
+        top: 0;
+    }
+
+}
